@@ -1,50 +1,67 @@
-.navbar-nav{
-	margin-left: 28%;
+a:hover {
+	text-decoration: none;
 }
 
-.dropdown-menu{
+.navbar-nav {
+	margin-left: 27%;
+}
+
+.dropdown-menu {
 	width: 960px;		
-	position: absolute;
-	left: 50%;
-	margin-left: -350px;	
+	position: absolute;	
 }
 
-.dropdown-menu .container-first{	
+.dropdown-menu.drop-container1{
+	left: 50%;
+	margin-left: -330px;	
+}
+
+.dropdown-menu.drop-container2{
+	left: 0%;
+	margin-left: -390px;	
+}
+
+.dropdown-menu.drop-container3{
+	left: 0%;
+	margin-left: -500px;	
+}
+
+.dropdown-menu .container-first {
 	padding-left: 35px;
 	padding-top: 30px;
 	padding-bottom: 40px;
 }
 
-.dropdown-menu .container-second .col-md-4{
+.dropdown-menu .container-second .col-md-4 {
 	padding: 0;
 	margin: 0;
 }
 
-.dropdown-menu .container-first h4{
+.dropdown-menu .container-first h4 {
 	color: #d5a770;
 }
 
-.dropdown-menu .sub-menu li{
+.dropdown-menu .sub-menu li {
 	padding: 5px 0;
 }
 
-.dropdown-menu .sub-menu li a{
+.dropdown-menu .sub-menu li a {
 	color: #000000;
 	font-size: 1rem;
 	font-weight: 500px;
 }
 
-.dropdown-menu .sub-menu li a:hover, .dropdown-menu .sub-menu li a.active{
+.dropdown-menu .sub-menu li a:hover, .dropdown-menu .sub-menu li a.active, .nav.navbar-nav i:hover{
 	color: #d5a770;
 }
 
-.dropdown-menu .row{
+.dropdown-menu .row {
 	width: 100%;
 	display: flex;
 	justify-content: space-between;
 }
 
-.bg-img{
+.bg-img {
 	background-size: cover;
 	background-position: 50%;
 	background-repeat: no-repeat;
@@ -55,8 +72,43 @@
 	transition: all .3s;
 }
 
-.dropdown-menu .datos{
-	color: #FFF;
+.dropdown-menu .container-second .datos {
 	display: flex;
-	align-items: center;s
+	align-items: center;
+	flex-direction: column;
+	width: 100%;
+	height: 100%;
 }
+
+.dropdown-menu .container-second .datos-content {
+	color: #ffffff;
+	position: relative;
+	text-align: center;
+	top: 50%;
+	transition: all .3s;
+}
+
+.dropdown-menu .container-second .datos-content .rounded-circle {
+	padding: 12px;
+}
+
+.dropdown-menu .container-second .datos:hover .datos-content {
+	font-size: 1.2rem;
+}
+.dropdown-menu .container-second .datos:hover span {
+	background-color: #d5a770;
+	border-color: #d5a770 !important;
+}
+
+.dropdown-menu .container-second .shadow {
+	background-color: rgba(0,0,0,.3);
+	left: 0;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+
+
+
+

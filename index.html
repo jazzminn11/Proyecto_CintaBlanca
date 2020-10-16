@@ -13,19 +13,19 @@
 <body>
   <header style="background-color: #101010">
     <div>
-      <p class="text-white d-flex justify-content-center">Ojos que nada ven, alma que nada espera</p>
+      <p class="text-white d-flex justify-content-center h6">Ojos que nada ven, alma que nada espera</p>
     </div>
     <nav class="navbar navbar-light navbar-expand-md justify-content-md-center justify-content-start">
       <a class="navbar-brand d-md-none d-inline" href="">Brand</a>
       <button class="navbar-toggler ml-1" type="button" data-toggle="collapse" data-target="#collapsingNavbar2">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <a class="nav-link navbar-brand mx-0 d-none d-md-inline" href=""><img width="70%" src="logo.jpg" alt="">#</a>
+      <a class="nav-link navbar-brand mx-0 d-none d-md-inline" href=""><img width="70%" src="logo.jpg" alt=""></a>
       <div class="navbar-collapse collapse justify-content-between align-items-center w-100" id="collapsingNavbar2">
         <ul class="navbar-nav text-md-center text-left">
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle text-white h5" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Obras</a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <div class="dropdown-menu drop-container1" aria-labelledby="navbarDropdown">
               <div class="container container-first">
                 <div class="row">
                   <div class="col-md-4">
@@ -62,9 +62,9 @@
               </div>            
             </div>
           </li>
-          <li class="nav-item dropdown">
+          <li class="nav-item dropdown mx-3">
             <a class="nav-link dropdown-toggle text-white h5" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Artistas</a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <div class="dropdown-menu drop-container2" aria-labelledby="navbarDropdown">
               <div class="container container-second">
                 <div class="row">
                   <div class="col-md-4 p-5">
@@ -76,36 +76,83 @@
                       <li><a href="#">Escultores</a></li>
                       <li><a href="#">Artistas aclamados</a></li>
                     </ul>
+                    <div class="w-100 d-flex justify-content-center"><button type="button" class="mt-5 btn btn-secondary">Todos los artistas</button></div>
                   </div>
                   <div class="col-md-4">
                     <div class="bg-img" style="background-image: url('https://sl-cdn.singulart.com/9WwaU0JDABKKUynQSq-y4rDxLJo=/fit-in/330x370/filters:format(jpeg):quality(80)/https://cdn.singulart.com/artists/pictures/cropped/profile/base/artist_profile_4477_7be3f4e25648552e98a12490a7eefde3.jpeg');">
-                      <a class="datos" href="">
-                        <div class="datos-content">
+                      <div class="shadow"></div>
+                      <div class="datos">
+                        <a class="datos-content" href="#">
                           <h4>Rie Kono</h4>
                           <p>Japon</p>
-                          <a class="text-white" href=""><i class="far fa-arrow-alt-circle-right"></i></a>                  
-                        </div>
-                      </a>
+                          <span class="border border-white rounded-circle">
+                            <i class="fas fa-arrow-right"></i>
+                          </span>
+                        </a>
+                      </div>
                     </div>                    
                   </div>
                   <div class="col-md-4">
                     <div class="bg-img" style="background-image: url('https://sl-cdn.singulart.com/AA46KFYfUyLbWzFr2naLjOH-N2A=/fit-in/330x370/filters:format(jpeg):quality(80)/https://cdn.singulart.com/artists/v2/pictures/cropped/profile/base/25181_profile_d3a621c3728320bf26cffbaca4c783ec.jpeg');">
-                      <a class="datos" href="">
-                        <div>
+                      <div class="shadow"></div>
+                      <div class="datos">
+                        <a class="datos-content" href="#">
                           <h4>Adin Kachisi</h4>
                           <p>Estados Unidos</p>
-                          <a class="text-white" href=""><i class="far fa-arrow-alt-circle-right"></i></a>                  
-                        </div>
-                      </a>
+                          <span class="border border-white rounded-circle">
+                            <i class="fas fa-arrow-right"></i>
+                          </span>
+                        </a>
+                      </div>
                     </div>                    
                   </div>
                 </div>
               </div>            
             </div>
           </li>
-          
-          <li class="nav-item">
-            <a class="nav-link text-white h5" href="#">Galería</a> 
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-white h5" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Colecciones</a>
+            <div class="dropdown-menu drop-container3" aria-labelledby="navbarDropdown">
+              <div class="container container-second">
+                <div class="row">
+                  <div class="col-md-4 p-5">
+                    <h4></h4>
+                    <ul class="list-unstyled sub-menu">
+                      <li><a href="#">Última Colección</a></li>
+                      <li><a href="#">Selección Editorial</a></li>
+                      <li><a href="#">Inspirado en...</a></li>
+                    </ul>
+                    <div class="w-100 d-flex justify-content-center"><button type="button" class="mt-5 btn btn-secondary">Todas las colecciones</button></div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="bg-img" style="background-image: url('https://sl-cdn.singulart.com/52t6vBsToOsuLju2oyp8-u-R3v4=/fit-in/330x370/filters:format(jpeg):quality(80)/https://cdn.singulart.com/artworks/v2/cropped/14861/main/base/517127_a0b327373ed67ae58c1396cdb67f943d.jpeg');">
+                      <div class="shadow"></div>
+                      <div class="datos">
+                        <a class="datos-content" href="#">
+                          <h4 class="mb-4">Nuestras mejores pinturas abstractas</h4>
+                          <span class="border border-white rounded-circle">
+                            <i class="fas fa-arrow-right"></i>
+                          </span>
+                        </a>
+                      </div>
+                    </div>                    
+                  </div>
+                  <div class="col-md-4">
+                    <div class="bg-img" style="background-image: url('https://sl-cdn.singulart.com/157DDPLK9h2eGTgcMeY6qNIxVFU=/fit-in/330x370/filters:format(jpeg):quality(80)/https://cdn.singulart.com/artworks/v2/cropped/524/main/base/9307_e8d3255e753c741b8d991c5820f39e37.jpeg');">
+                      <div class="shadow"></div>
+                      <div class="datos">
+                        <a class="datos-content" href="#">
+                          <h4 class="mb-4">Inspirado en Niki de Saint Phalle</h4>
+                          <span class="border border-white rounded-circle">
+                            <i class="fas fa-arrow-right"></i>
+                          </span>
+                        </a>
+                      </div>
+                    </div>                    
+                  </div>
+                </div>
+              </div>            
+            </div>
           </li>
         </ul>
         <ul class="nav navbar-nav flex-row justify-content-md-center justify-content-start flex-nowrap">
@@ -188,7 +235,7 @@
     </div>
 
     <div class="card" style="width: 18rem;">
-  <img src="..." class="card-img-top" alt="...">
+  <img src="" class="card-img-top" alt="...">
   <div class="card-body">
     <h5 class="card-title">Card title</h5>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
