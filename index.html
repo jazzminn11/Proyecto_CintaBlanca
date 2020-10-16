@@ -6,63 +6,128 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Artistik</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+  <link rel="stylesheet" href="header.css">
 </head>
 
 <body>
-  <header>
-
-    <div class="titulo bg-dark .text-light"> Ojos que nada ven, alma que nada espera </div>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <a class="navbar-brand" href="#"><img src="logo.jpg" alt=""> </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  <header style="background-color: #101010">
+    <div>
+      <p class="text-white d-flex justify-content-center">Ojos que nada ven, alma que nada espera</p>
+    </div>
+    <nav class="navbar navbar-light navbar-expand-md justify-content-md-center justify-content-start">
+      <a class="navbar-brand d-md-none d-inline" href="">Brand</a>
+      <button class="navbar-toggler ml-1" type="button" data-toggle="collapse" data-target="#collapsingNavbar2">
         <span class="navbar-toggler-icon"></span>
       </button>
-
-      <div class="dropdown">
-        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Artworks
-        </button>
-        <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-          <button class="dropdown-item" type="button">Action</button>
-          <button class="dropdown-item" type="button">Another action</button>
-          <button class="dropdown-item" type="button">Something else here</button>
-        </div>
+      <a class="nav-link navbar-brand mx-0 d-none d-md-inline" href=""><img width="70%" src="logo.jpg" alt="">#</a>
+      <div class="navbar-collapse collapse justify-content-between align-items-center w-100" id="collapsingNavbar2">
+        <ul class="navbar-nav text-md-center text-left">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-white h5" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Obras</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <div class="container container-first">
+                <div class="row">
+                  <div class="col-md-4">
+                    <h4>Categorias</h4>
+                    <ul class="list-unstyled sub-menu">
+                      <li><a href="#">Pinturas</a></li>
+                      <li><a href="#">Esculturas</a></li>
+                      <li><a href="#">Fotos</a></li>
+                      <li><a href="#">Dibujos</a></li>
+                      <li><a href="#">Otros archivos</a></li>
+                    </ul>
+                  </div>
+                  <div class="col-md-4">
+                    <h4>Estilos</h4>
+                    <ul class="list-unstyled sub-menu">
+                      <li><a href="#">Abstracto</a></li>
+                      <li><a href="#">Documental</a></li>
+                      <li><a href="#">Natural</a></li>
+                      <li><a href="#">Retrato</a></li>
+                      <li><a href="#">Escenario</a></li>                      
+                    </ul>
+                  </div>
+                  <div class="col-md-4">
+                    <h4>Formas</h4>
+                    <ul class="list-unstyled sub-menu">
+                      <li><a href="#">Blanco y Negro</a></li>
+                      <li><a href="#">Color</a></li>
+                      <li><a href="#">Digital</a></li>
+                      <li><a href="#">Moderno</a></li>
+                      <li><a href="#">Panoramico</a></li>                      
+                    </ul>
+                  </div>
+                </div>
+              </div>            
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-white h5" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Artistas</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <div class="container container-second">
+                <div class="row">
+                  <div class="col-md-4 p-5">
+                    <h4></h4>
+                    <ul class="list-unstyled sub-menu">
+                      <li><a href="#">Artistas destacados</a></li>
+                      <li><a href="#">Pintores</a></li>
+                      <li><a href="#">Fotografos</a></li>
+                      <li><a href="#">Escultores</a></li>
+                      <li><a href="#">Artistas aclamados</a></li>
+                    </ul>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="bg-img" style="background-image: url('https://sl-cdn.singulart.com/9WwaU0JDABKKUynQSq-y4rDxLJo=/fit-in/330x370/filters:format(jpeg):quality(80)/https://cdn.singulart.com/artists/pictures/cropped/profile/base/artist_profile_4477_7be3f4e25648552e98a12490a7eefde3.jpeg');">
+                      <a class="datos" href="">
+                        <div class="datos-content">
+                          <h4>Rie Kono</h4>
+                          <p>Japon</p>
+                          <a class="text-white" href=""><i class="far fa-arrow-alt-circle-right"></i></a>                  
+                        </div>
+                      </a>
+                    </div>                    
+                  </div>
+                  <div class="col-md-4">
+                    <div class="bg-img" style="background-image: url('https://sl-cdn.singulart.com/AA46KFYfUyLbWzFr2naLjOH-N2A=/fit-in/330x370/filters:format(jpeg):quality(80)/https://cdn.singulart.com/artists/v2/pictures/cropped/profile/base/25181_profile_d3a621c3728320bf26cffbaca4c783ec.jpeg');">
+                      <a class="datos" href="">
+                        <div>
+                          <h4>Adin Kachisi</h4>
+                          <p>Estados Unidos</p>
+                          <a class="text-white" href=""><i class="far fa-arrow-alt-circle-right"></i></a>                  
+                        </div>
+                      </a>
+                    </div>                    
+                  </div>
+                </div>
+              </div>            
+            </div>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link text-white h5" href="#">Galería</a> 
+          </li>
+        </ul>
+        <ul class="nav navbar-nav flex-row justify-content-md-center justify-content-start flex-nowrap">
+          <li class="nav-item"><a class="nav-link text-white" href=""><i class="fas fa-user"></i></a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="#_"><i class="fa fa-search mr-1"></i></a></li>         
+          <li class="nav-item"><a class="nav-link text-white" href=""><i class="fas fa-shopping-bag mr-1"></i></a></li>
+          <li class="nav-item"><a class="nav-link text-white" href=""><i class="fas fa-heart"></i> </a></li>
+        </ul>
       </div>
-
-      <div class="dropdown">
-        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Artist
-        </button>
-        <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-          <button class="dropdown-item" type="button">Action</button>
-          <button class="dropdown-item" type="button">Another action</button>
-          <button class="dropdown-item" type="button">Something else here</button>
-        </div>
-      </div>
-
-      <div class="dropdown">
-        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Collections
-        </button>
-        <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-          <button class="dropdown-item" type="button">Action</button>
-          <button class="dropdown-item" type="button">Another action</button>
-          <button class="dropdown-item" type="button">Something else here</button>
-        </div>
-      </div>
-    </nav>
+    </nav>    
   </header>
 
 
   <main>
-<div class="">
-  <div class="jumbotron">
-    <div style="background-image: url('principalAB.jpg');">
-    <p class="lead text-center">Tu página de arte favorita</p>
-    <hr class="my-4">
-    <a class="btn btn-primary btn-lg" href="#" role="button">Contactanos</a>
-  </div>
-</div>
+    <div class="">
+      <div class="jumbotron">
+        <div style="background-image: url('principalAB.jpg');">
+        <p class="lead text-center">Tu página de arte favorita</p>
+        <hr class="my-4">
+        <a class="btn btn-primary btn-lg" href="#" role="button">Contactanos</a>
+      </div>
+    </div>
 
 
     <div class="Compra">
