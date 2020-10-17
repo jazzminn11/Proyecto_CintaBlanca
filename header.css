@@ -2,8 +2,12 @@ a:hover {
 	text-decoration: none;
 }
 
+header {
+	background-color: #101010
+}
+
 .navbar-nav {
-	margin-left: 27%;
+	margin-left: 35%;
 }
 
 .dropdown-menu {
